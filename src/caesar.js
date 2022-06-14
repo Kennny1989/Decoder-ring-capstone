@@ -13,7 +13,7 @@ const caesarModule = (function () {
     }
     //here we create an array of all lowercase letters a-z
     let letters = []
-    for (let i =0; i<26;i++){
+    for (let i = 0; i <26; i++){
       letters.push(String.fromCharCode(97+i))
     }
     //this will be our final return, first splitting the message then mapping it
